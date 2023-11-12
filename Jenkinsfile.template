@@ -4,6 +4,9 @@ pipeline {
             label 'jenkins-agent-goes-here'
             }
       }
+    trigger {
+        pollSCM '*/5 * * * *'
+    } // poll every 5 minutes
     stages {
         stage('Build') {
             steps {
@@ -17,7 +20,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing test stuff..
+                echo "doing test stuff.."
                 '''
             }
         }

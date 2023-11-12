@@ -1,6 +1,7 @@
 
 # Jenkins 101 
 This repository is used to learn basic concepts of Jenkins like Jenkins setup, running cloud agents, pipeline creation. It is adapted from the course of https://github.com/devopsjourney1/jenkins-101/tree/master. 
+![Logo](jenkins.png)
 ## YouTube Link
 For the full 1 hour course watch on youtube:
 https://www.youtube.com/watch?v=6YZvp2GwT0A
